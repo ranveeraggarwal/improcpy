@@ -1,6 +1,6 @@
 import cv2
 
-from enhancement.toonify import toonify
+from improcpy.enhancement.toonify import toonify
 
 img = cv2.imread('filename.jpg')
 
