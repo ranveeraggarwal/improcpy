@@ -1,5 +1,4 @@
 import cv2
-import argparse
 
 
 def action_sequence_generator(video, frames_required=8, thresh=35, maxval=255):
@@ -62,7 +61,6 @@ def action_sequence_generator(video, frames_required=8, thresh=35, maxval=255):
     result = video_frames[0]
 
     for i in frame_numbers:
-        print i
         if i == 0:
             continue
 
