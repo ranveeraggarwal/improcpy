@@ -52,7 +52,7 @@ def toonify(image, canny_threshold_lower=90, canny_threshold_upper=250,
     Anmol Kagrecha (akagrecha@gmail.com)
     Ranveer Aggarwal (ranveeraggarwal@gmail.com)
     """
-
+    image = cv2.imread(image)
     blurred_image = cv2.medianBlur(image, median_blur_kernel_size)
 
     # Edge detection and improvement
