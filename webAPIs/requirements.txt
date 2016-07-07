@@ -1,0 +1,7 @@
+Django==1.9.7
+django-rest-swagger==0.3.8
+django-simple-history==1.8.1
+djangorestframework==3.3.3
+Pillow==3.3.0
+PyYAML==3.11
+wheel==0.26.0
