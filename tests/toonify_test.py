@@ -4,10 +4,7 @@ from improcpy.enhancement.toonify import toonify
 
 def main():
     img = cv2.imread('test_image.jpg')
-    try:
-        toonify(img)
-    except:
-        assert False
+    toonify(img)
 
 
 if __name__ == '__main__':
