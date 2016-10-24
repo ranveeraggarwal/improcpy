@@ -3,9 +3,9 @@ from improcpy.enhancement.toonify import toonify
 
 
 def main():
-    img = cv2.imread('test_image.py')
+    img = cv2.imread('test_image.jpg')
     try:
-        result = toonify(img)
+        toonify(img)
     except:
         assert False
 
